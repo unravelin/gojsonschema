@@ -31,8 +31,6 @@ import (
 
 func TestUsefulErrorDescription(t *testing.T) {
 
-	//	assert.Equal(t, "ddd", "ddde")
-
 	noField := usefulErrorDescription(
 		"",
 		"%dog%<>%cat%",
